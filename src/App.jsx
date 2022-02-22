@@ -3,7 +3,7 @@ import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
 import { Features } from "./components/features";
 import { Home } from "./components/home";
-import { Services } from "./components/services";
+import { ServicesHome } from "./components/servicehome";
 import { Team } from "./components/Team";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
@@ -25,7 +25,7 @@ const App = () => {
       <Navigation />
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
-      <Services data={landingPageData.Services} />
+      <ServicesHome data={landingPageData.ServicesHome} />
       <Home data={landingPageData.Home}/>
       <Team data={landingPageData.Team} />
     </div>

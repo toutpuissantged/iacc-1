@@ -8,7 +8,7 @@ export const Features = (props) => {
                 <div key={`${d.title}-${i}`} className='col-xs-6 col-md-4'>
                   {' '}
                   <i className="numero">{d.number}</i>
-                  <i className={d.icon}></i>
+                  <i className={d.icon}><img src={d.image} alt="" /></i>
                   <h3>{d.title}</h3>
                 </div>
               ))
