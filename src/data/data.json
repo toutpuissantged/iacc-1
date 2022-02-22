@@ -161,25 +161,28 @@
     "youtube": "youtube.com"
   },
   "Features": [
-    {
+    { "number":"1",
       "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Simplifier la vie des centres d’appels"
     },
     {
+      "number":"2",
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Une Plateforme qui offre de véritables solutions aux problèmes d’arnaques"
     },
     {
+      "number":"3",
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Un service client toujours à l’écoute"
     }
-  ]
+  ],
+  "Home": 
+  {"title":"Iacc  groupes une solution adapter à votre taille",
+    "p1":"Iacc groupes met en relation : Des entreprises qui souhaitent trouver de bons centre d’appels, font appels à nous.",
+    "p2": "Finit l’arnaque car avec notre structure, les centre d’appels ne se feront plus arnaquer, car nous prenons en charges toutes les démarches administratives, juridiques.",
+    "p3": "Une solution pour les travailleurs indépendants : Grace à notre logiciel nous facilitons le télétravail plus besoin de se déplacer, avec un casque, un pc, une bonne connexion vous pourrez travailler depuis chez vous.",
+    "p4": "Voir le travail en temps réel : Grace à notre plateforme plus besoin de vous inquiéter car nous vous donnons la possibilité d’écouter les appels en temps réel et la possibilité de stopper le téléprospecteur en cas de mauvaise performance.",
+    "video" : "img/video/iacc.mp4"
+
+  }
 }
