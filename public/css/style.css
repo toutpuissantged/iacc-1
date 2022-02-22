@@ -3,7 +3,7 @@ html {
   font-family: "Open Sans", sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
-  color: #777;
+  color: rgb(204, 192, 192);
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
@@ -164,16 +164,15 @@ hr {
 }
 .btn-custom {
   font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
   color: #fff;
   background-color: #5ca9fb;
   background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
   padding: 14px 34px;
   letter-spacing: 1px;
-  margin: 0;
-  font-size: 15px;
-  font-weight: 500;
-  border-radius: 25px;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 10px;
+  font-weight: 600;
   transition: all 0.5s linear;
   border: 0;
 }
@@ -216,31 +215,37 @@ a:focus,
   -o-background-size: cover;
 }
 .intro .overlay {
-  background: rgba(0, 0, 0, 0.2);
+  background:#000;
+  opacity: 0.8;
+}
+/* second paragraphe du texte de bien venur*/
+.sec-pa
+{
+  margin-bottom: 30px;
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
-  color: #fff;
-  font-size: 82px;
-  font-weight: 700;
+  color: #5ca9fb;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-weight: 800;
 }
 .intro h1 span {
   font-weight: 800;
   color: #5ca9fb;
 }
 .intro p {
-  color: #fff;
-  font-size: 22px;
+  font-size: 32px;
   font-weight: 300;
   line-height: 30px;
   margin: 0 auto;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 header .intro-text {
-  padding-top: 350px;
+  padding-top: 20%;
   padding-bottom: 200px;
   text-align: center;
 }

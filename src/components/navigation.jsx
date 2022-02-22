@@ -10,13 +10,13 @@ export const Navigation = (props) => {
             data-target='#bs-example-navbar-collapse-1'
           >
             {' '}
-            <span className='sr-only'>Toggle navigation</span>{' '}
+            <span className='sr-only'>Menu</span>{' '}
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='navbar-brand page-scroll' href='#page-top'>
-            React Landing Page
+            IACC GROUPES
           </a>{' '}
         </div>
 
