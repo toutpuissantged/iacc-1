@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom"
+import RouteMap from "../router/map"
+
 export const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
@@ -15,9 +18,9 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
-          <a className='navbar-brand page-scroll' href='#page-top'>
-            React Landing Page
-          </a>{' '}
+          <Link className='navbar-brand page-scroll' to={RouteMap.home}>
+            Iacc groups
+          </Link>{' '}
         </div>
 
         <div
@@ -26,39 +29,19 @@ export const Navigation = (props) => {
         >
           <ul className='nav navbar-nav navbar-right'>
             <li>
-              <a href='#features' className='page-scroll'>
-                Features
-              </a>
+              <Link to={RouteMap.home} className='page-scroll'>
+                Accueil
+              </Link>
             </li>
             <li>
-              <a href='#about' className='page-scroll'>
-                About
-              </a>
+              <Link to={RouteMap.blog} className='page-scroll'>
+                Blog
+              </Link>
             </li>
             <li>
-              <a href='#services' className='page-scroll'>
-                Services
-              </a>
-            </li>
-            <li>
-              <a href='#portfolio' className='page-scroll'>
-                Gallery
-              </a>
-            </li>
-            <li>
-              <a href='#testimonials' className='page-scroll'>
-                Testimonials
-              </a>
-            </li>
-            <li>
-              <a href='#team' className='page-scroll'>
-                Team
-              </a>
-            </li>
-            <li>
-              <a href='#contact' className='page-scroll'>
-                Contact
-              </a>
+              <Link to={RouteMap.account} className='page-scroll'>
+                Inscription
+              </Link>
             </li>
           </ul>
         </div>
