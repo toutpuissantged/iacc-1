@@ -3,7 +3,7 @@ html {
   font-family: "Open Sans", sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
-  color: rgb(204, 192, 192);
+  color: rgb(241, 236, 236);
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
@@ -202,54 +202,7 @@ a:focus,
   outline: none;
   outline-offset: none;
 }
-/* Header Section */
-.intro {
-  display: table;
-  width: 100%;
-  padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
-  background-color: #e5e5e5;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-.intro .overlay {
-  background:#000;
-  opacity: 0.8;
-}
-/* second paragraphe du texte de bien venur*/
-.sec-pa
-{
-  margin-bottom: 30px;
-}
-.intro h1 {
-  font-family: "Raleway", sans-serif;
-  color: #5ca9fb;
-  text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 10px;
-  font-size: 60px;
-  margin-bottom: 20px;
-  font-weight: 800;
-}
-.intro h1 span {
-  font-weight: 800;
-  color: #5ca9fb;
-}
-.intro p {
-  font-size: 32px;
-  font-weight: 300;
-  line-height: 30px;
-  margin: 0 auto;
-  margin-bottom: 20px;
-}
-header .intro-text {
-  padding-top: 25%;
-  padding-bottom: 200px;
-  text-align: center;
-  height: 100vh;
-}
+
 /* Features Section */
 #features {
   background: #1067c41c;
@@ -323,7 +276,7 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to left, #4451c2 0%, #3b8adf 100%);
   color: #fff;
 }
 #services .service-desc {
@@ -367,10 +320,11 @@ header .intro-text {
 .home
 {
   background: #1067c41c;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 .home p
 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #000;
 }
 
@@ -634,6 +588,163 @@ label {
 #footer a:hover {
   border-bottom: 2px solid #608dfd;
 }
+/*code ajouter par roberto tsafack*/
+.imgser
+{
+  width: 50px;
+}
+#bloghome
+{
+  background: url(../img/blog-home/blog-home.jpg);
+  padding-top: 60px;
+  background-size: cover;
+  height: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 60px;
+}
+.telesecretariat
+{
+  padding-top: 10%;
+}
+.telesec
+{
+  width: 100%;
+}
+#bloghome .text-telesec span
+{
+  font-size: 60px;
+  padding-right: 0px;
+}
+#bloghome .text-telesec
+{
+  padding-top: 3%;
+  padding-left: 3%;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 500;
+}
+.text-telesec p
+{
+  font-size: 18px;
+}
+
+#bloghome .text-telesec h3
+{
+  color:#608dfd ;
+  letter-spacing: 3px;
+  margin-bottom: 25px;
+  font-weight: 800;
+}
+#bloghome h2
+{
+  color: #fff;
+}
+
+
+
+/*blog pourquoi utiliser */
+#bloghome .text-use
+{
+  padding-top: 12%;
+  padding-left: 3%;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 500;
+}
+.text-use p
+{
+  font-size: 18px;
+}
+#bloghome .text-use h3
+{
+  color:#1752e7;
+  letter-spacing: 3px;
+  margin-bottom: 25px;
+  font-weight: 800;
+}
+.text-use h3 span
+{
+font-size: 60px;
+}
+
+#bloghome  .use-img
+{
+   padding-top: 15%;
+   width: 100%;
+   height: 50%;
+
+}
+.logo-blog
+{
+  padding-left: 4%;
+}
+/*registrer home */
+#registrehome
+{
+  padding-top: 7%;
+  padding-bottom: 7%;
+  background: linear-gradient(to left, #202022 0%, #285483 100%);
+  text-align: center;
+}
+#registrehome h3
+{
+  color: #fff;
+  font-size: 45px;
+  font-weight: 800;
+}
+/*footer*/
+#footer 
+{
+  background-color: #000;
+  padding-top: 4%;
+  padding-bottom: 5%;
+  color: #fff;
+}
+#footer h5
+{
+  padding-bottom: 5px;
+  text-decoration: underline;
+}
+
+#footer a ,#footer p
+{
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14.5px;
+  font-weight: 700;
+  
+}
+#footer .haut
+{
+  border-bottom: 1px solid #555;
+  padding-bottom: 10px;
+  color: #fff;
+}
+.haut h5
+{
+  text-transform: none;
+}
+#footer .bas
+{
+  margin-top: 15px;
+  text-align: center;
+}
+#footer .reseau
+{
+  margin-top: 15px;
+  text-align: center;
+}
+#footer .reseau i
+{
+  border-radius: 50%;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #555;
+  background-color: rgba(85, 85, 85, 0.815);
+  font-size: 20px;
+  padding-top: 5%;
+  margin-right: 5px;
+}
+
 
 @media (max-width: 768px) {
   #about img {
