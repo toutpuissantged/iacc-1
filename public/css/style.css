@@ -727,6 +727,13 @@ font-size: 60px;
   margin-top: 15px;
   text-align: center;
 }
+
+ .payement i img
+{
+  margin-right: 10px;
+  height: auto;
+  width: 12%;
+}
 #footer .reseau
 {
   margin-top: 15px;
@@ -743,6 +750,10 @@ font-size: 60px;
   font-size: 20px;
   padding-top: 5%;
   margin-right: 5px;
+}
+.logo-footer
+{
+  width: 90px;
 }
 
 

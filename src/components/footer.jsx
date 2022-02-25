@@ -32,13 +32,14 @@ export const Footer = (props) => {
               </div>           
           </div>
           <div className="row bas">
-              <div className="col-md-4">
-                  <i className=""> <img src="img/mode-payement/visa.png" alt="" /></i>
-                  <i className=""> <img src="img/mode-payement/mastercate.png" alt="" /></i>
-                  <i className=""> <img src="img/mode-payement/mastercate.png" alt="" /></i>
+              <div className="col-md-4 payement">
+                  <i> <img src="img/mode-payement/visa.png" alt="" /></i>
+                  <i> <img src="img/mode-payement/mastercate.png" alt="" /></i>
+                  <i> <img src="img/mode-payement/maestro.png" alt="" /></i> <br />
+                  <p>Paiements sécurisés par PayPal et Stripe</p>
               </div>
               <div className="col-md-4">
-
+                  <a href="https://www.iaccgroupes.com"><img src="img/logo/logo-footer.jpeg" alt="" className="logo-footer" /></a>
               </div>
               <div className="col-md-4 reseau">
                   <i className="fa fa-facebook"></i>
