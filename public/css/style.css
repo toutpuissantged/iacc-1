@@ -755,6 +755,162 @@ font-size: 60px;
 {
   width: 90px;
 }
+/* partie mission*/ 
+
+#missionlist
+{
+  
+  background: linear-gradient(to right, #0f5f3760 0%, #03164165 100%);
+  padding-bottom: 10px;
+  
+}
+#missionlist .tris 
+{
+  background: rgba(255, 255, 255, 0.733);
+  padding-bottom: 60px;
+  
+}
+
+#missionlist .tris  p
+{
+  color: #285483;
+  font-size: 25px;
+  padding-bottom: 25px;
+  font-weight: 600;
+  margin-top: 9px;
+}
+
+option
+{
+  font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 15px;
+  color: #285483;
+  
+}
+/*misions*/
+.mission {
+  margin-top: 30px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.644);
+  position: relative;
+  cursor: pointer;
+  height: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.mission:hover{
+  border: 1px solid #6372ff;
+}
+
+.nom-mission {
+  display: inline-block;
+  font-weight: bold;
+  font-weight: 800;
+  text-transform: none;
+  font-size: 25px;
+  color: #285483;
+  text-align: left;
+  margin-bottom: 0px;
+
+}
+
+.background-secteur {
+  content: '';
+  display: inline-block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0px 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.background-secteur {
+  background: linear-gradient(to right, #052f3660 0%, #01160f4d 100%);
+  background-position: top center;
+}
+
+
+.couleur-background {
+  padding: 30px;
+  padding-bottom: 40px;
+  top: 0;
+  left: 0;
+  color: #455a64;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.categorie-mission {
+  top: 24px;
+  right: -103px;
+  left: auto;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  position: absolute;
+  width: 300px;
+  position: absolute;
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 1.5px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.categorie-mission.ao {
+  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%); 
+   color: white;
+}
+.mission .row {
+  padding-top: 0px !important;
+}
+
+.debut-contenu-mission {
+  padding: 0 30px;
+}
+
+.mission .rounded-circle { /*POUR AFFICHEER LE LOGO DE IACC DAND SERVICE*/
+  width: 80px; 
+  position: absolute;
+  top: -20%;
+  opacity: 0.2;
+}
+.content-label
+{
+  margin: 15px;
+  padding-top: 50px;
+  padding-left: 20px;
+
+}
+.content-label .cible P
+{
+  background: linear-gradient(to right, #052f3660 0%, #01160f4d 100%);
+  color: #285483;
+  text-align: center;
+  font: 20px;
+  font-weight: 800;
+  padding: 10px;
+
+}
+.content-label .contenu p
+{
+  color: #000;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 700;
+  text-align: left;
+}
+.content-label .contenu p span
+{
+  font-size: 19px;
+}
+.conntent-footer .btn
+{
+  margin-top: 20%;
+}
+
 
 
 @media (max-width: 768px) {

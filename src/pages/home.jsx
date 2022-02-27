@@ -1,13 +1,13 @@
 import { useState, useEffect } from "react";
 import { Navigation } from "../components/navigation";
-import { Header } from "../components/header";
+import {Slider} from "../components/slider";
 import { Features } from "../components/features";
-import { About } from "../components/about";
-import { Services } from "../components/services";
-import { Gallery } from "../components/gallery";
-import { Testimonials } from "../components/testimonials";
-import { Team } from "../components/Team";
-import { Contact } from "../components/contact";
+
+import { ServicesHome } from "../components/servicehome";
+import { Home } from "../components/home";
+import { BlogHome } from "../components/bloghome"; 
+import { RegistrerHome } from "../components/registrerhome"; 
+import { Footer } from "../components/footer";
 import JsonData from "../data/data.json";
 import SmoothScroll from "smooth-scroll";
 
@@ -25,14 +25,13 @@ const HomePages = () => {
   return (
     <div>
       <Navigation />
-      <Header data={landingPageData.Header} />
+      <Slider data={landingPageData.Slider} />
       <Features data={landingPageData.Features} />
-      <About data={landingPageData.About} />
-      <Services data={landingPageData.Services} />
-      <Gallery data={landingPageData.Gallery}/>
-      <Testimonials data={landingPageData.Testimonials} />
-      <Team data={landingPageData.Team} />
-      <Contact data={landingPageData.Contact} />
+      <ServicesHome data={landingPageData.ServicesHome} />
+      <Home data={landingPageData.Home}/>
+      <BlogHome data={landingPageData.BlogHome} />
+      <RegistrerHome data={landingPageData.RegistrerHome} />
+      <Footer data={landingPageData.Footer} />
     </div>
   );
 };
