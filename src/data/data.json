@@ -1,7 +1,8 @@
 {
   "Header": {
-    "title": "Iacc groupes",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Bienvenue sur IACC GROUPES",
+    "paragraph": "L’espace dédié aux centres d’appels",
+    "paragraphsec":"Sécurité, Transparence, Adapter à votre taille"
   },
   "About": {
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -68,33 +69,33 @@
   "Services": [
     {
       "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Télésecrétariat",
+      "text": " Médicale, Juridique, PME, etc."
     },
     {
       "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Opérateur chat",
+      "text": " Chat en direct, campagne d'email, etc."
     },
     {
       "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Campagne d'appel",
+      "text": "Prospection téléphonique, qualification de fiche, service à la clientèle"
     },
     {
       "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Solution Voip&CRM",
+      "text": "L'Europe, l'Amérique, L'Afrique"
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Vente de fichier",
+      "text": "L'Europe, L'Amérique"
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": " Assistance Virtual",
+      "text": "Assistant de direction, Assistant virtuel administratif, Assistant de gestion, Assistant comptable"
     }
   ],
   "Testimonials": [
@@ -160,25 +161,61 @@
     "youtube": "youtube.com"
   },
   "Features": [
-    {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    { "number":"1",
+      "icon": "fa fa-comm",
+      "image": "img/logo-after-header/1.png",
+      "title": "Simplifier la vie des centres d’appels"
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "number":"2",
+      "icon": "fa fa-bull",
+      "image": "img/logo-after-header/2.png",
+      "title": "Une Plateforme qui offre de véritables solutions aux problèmes d’arnaques"
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "number":"3",
+      "icon": "fa fa-g",
+      "image": "img/logo-after-header/3.png",
+      "title": "Un service client toujours à l’écoute"
+    }
+  ],
+  "ServicesHome": [
+    {
+      "icon": "fa ",
+      "image": "img/logo-services-home/telesecretariat.png",
+      "name": "Télésecrétariat",
+      "text": " Médicale, Juridique, PME, etc."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-cloud-",
+      "image": "img/logo-services-home/operator.png",
+      "name": "Opérateur chat",
+      "text": " Chat en direct, campagne d'email, etc."
+    },
+    {
+      "icon": "fa fa-",
+      "image": "img/logo-services-home/cc.png",
+      "name": "Campagne d'appel",
+      "text": "Prospection téléphonique, qualification de fiche, service à la clientèle"
+    },
+    {
+      "icon": "fa fa-",
+      "image": "img/logo-services-home/voip.png",
+      "name": "Solution Voip&CRM",
+      "text": "L'Europe, l'Amérique, L'Afrique"
+    },
+    {
+      "icon": "fa fa-",
+      "image": "img/logo-services-home/file.png",
+      "name": "Vente de fichier",
+      "text": "L'Europe, L'Amérique"
+    },
+    {
+      "icon": "fa fa-",
+      "image": "img/logo-services-home/asistante.png",
+      "name": " Assistance Virtual",
+      "text": "Assistant de direction, Assistant virtuel administratif, Assistant de gestion, Assistant comptable"
     }
   ]
+
 }

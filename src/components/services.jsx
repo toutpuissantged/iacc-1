@@ -3,11 +3,8 @@ export const Services = (props) => {
     <div id='services' className='text-center'>
       <div className='container'>
         <div className='section-title'>
-          <h2>Our Services</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
-          </p>
+          <h2>Nos Services</h2>
+
         </div>
         <div className='row'>
           {props.data
@@ -21,7 +18,7 @@ export const Services = (props) => {
                   </div>
                 </div>
               ))
-            : 'loading'}
+            : 'Chargement en cours'}
         </div>
       </div>
     </div>

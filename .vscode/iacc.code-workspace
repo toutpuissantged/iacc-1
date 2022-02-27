@@ -4,5 +4,15 @@
 			"path": ".."
 		}
 	],
-	"settings": {}
+	"settings": {},
+	"extensions": {
+		"recommendations": [
+			"formulahendry.auto-rename-tag",
+			"dsznajder.es7-react-js-snippets",
+			"dbaeumer.vscode-eslint",
+			"mhutchie.git-graph",
+			"github.copilot",
+			"eamodio.gitlens"
+		]
+	}
 }
