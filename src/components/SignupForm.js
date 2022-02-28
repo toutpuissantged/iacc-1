@@ -8,6 +8,15 @@ const SignupForm = () => {
           <h2 className="title">Ouvrir un compte</h2>
         </div>
         <form className="form-wrapper">
+
+            <div className="civilite">
+              <label className="label">Civilité</label>
+              <select className="input" type="">
+                <option>Mr</option>
+                <option>Mme</option>
+              </select>
+            </div>
+
             <div className="fullName">
             <label className="label">Nom complet</label>
             <input className="input" type="text"/>
@@ -21,6 +30,16 @@ const SignupForm = () => {
             <div className="userName">
             <label className="label">Nom d'utilisateur</label>
             <input className="input" type="text"/>
+            </div>
+
+            <div className="raisonSocial">
+              <label className="label">Raison Social</label>
+              <input className="input" type="text"/>
+            </div>
+
+            <div className="siren">
+              <label className="label">Numéro SIREN/SIRET</label>
+              <input className="input" type="tel"/>
             </div>
 
             <div className="password">
