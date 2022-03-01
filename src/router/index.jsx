@@ -4,6 +4,7 @@ import {Route , Routes} from 'react-router-dom'
 import Home from '../pages/home'
 import Account from '../pages/account'
 import Blog from '../pages/blog'
+import Missions from '../pages/missions'
 
 // le composents Router permet de gérer les différentes routes ! nous utilisons react-router-dom donc nous respectons les conventions de react-router-dom
 export default function Router() {
@@ -11,6 +12,7 @@ export default function Router() {
     <>
     <Routes>
         <Route  path="/" element={<Home />} />
+        <Route  path="/missions" element={<Missions />} />
         <Route path="/account" element={<Account />} />
         <Route path="/blog" element={<Blog />} />
     </Routes>

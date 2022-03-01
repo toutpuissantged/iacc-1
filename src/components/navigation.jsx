@@ -19,7 +19,7 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <Link className='navbar-brand page-scroll' to={RouteMap.home}>
-            Iacc groups
+            Iacc groupes
           </Link>{' '}
         </div>
 
@@ -31,6 +31,11 @@ export const Navigation = (props) => {
             <li>
               <Link to={RouteMap.home} className='page-scroll'>
                 Accueil
+              </Link>
+            </li>
+            <li>
+            <Link to={RouteMap.missions} className='page-scroll'>
+                voir Les Missions
               </Link>
             </li>
             <li>

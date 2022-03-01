@@ -18,7 +18,7 @@ export const ServicesHome = (props) => {
                     </div>
                   </div>
                 ))
-              : 'Chargement en cours'}
+              : 'Chargement en cours...'}
           </div>
         </div>
       </div>
