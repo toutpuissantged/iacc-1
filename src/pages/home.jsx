@@ -1,22 +1,22 @@
 import { useState, useEffect } from "react";
 import { Navigation } from "../components/navigation";
-import {Slider} from "../components/slider";
 import { Features } from "../components/features";
-
-import { ServicesHome } from "../components/servicehome";
 import { Home } from "../components/home";
-import { BlogHome } from "../components/bloghome"; 
-import { RegistrerHome } from "../components/registrerhome"; 
+import { ServicesHome } from "../components/servicehome";
+import { BlogHome } from "../components/bloghome";
+import { RegistrerHome } from "../components/registrerhome";
 import { Footer } from "../components/footer";
+import { Slider } from "../components/slider";
 import JsonData from "../data/data.json";
 import SmoothScroll from "smooth-scroll";
+import "./app.css";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
   speedAsDuration: true,
 });
 
-const HomePages = () => {
+const App = () => {
   const [landingPageData, setLandingPageData] = useState({});
   useEffect(() => {
     setLandingPageData(JsonData);
@@ -36,4 +36,4 @@ const HomePages = () => {
   );
 };
 
-export default HomePages;
+export default App;
