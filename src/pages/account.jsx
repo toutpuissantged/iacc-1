@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Navigation } from '../components/navigation'
-import  SignupForm  from '../components/SignupForm'
+import SignUpScreen from './signUp'
 import AccountUi from '../components/account/index'
 
 export default class AccountPages extends Component {
@@ -8,9 +8,8 @@ export default class AccountPages extends Component {
     return (
       <div>
         <Navigation />
-        <SignupForm />
+        <SignUpScreen />
         <AccountUi />
-        <h1>Account</h1>
       </div>
       
     )
