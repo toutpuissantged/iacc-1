@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { Navigation } from '../components/navigation'
 
 import SignUpScreen from './signUp'
-import AccountUi from '../components/account/index'
 
 
 export default class AccountPages extends Component {
@@ -11,7 +10,6 @@ export default class AccountPages extends Component {
       <div>
         <Navigation />
         <SignUpScreen />
-        <AccountUi />
       </div>
       
     )

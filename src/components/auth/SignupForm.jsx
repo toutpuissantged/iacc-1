@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import validation from "./validation";
+import "./style.module.css";
 
 const SignupForm = (submitForm) => {
 const [values, setValues] = useState({
