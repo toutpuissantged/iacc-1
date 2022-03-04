@@ -4,6 +4,7 @@ const RouteMap = {
     home : '/',
     account : '/account',
     blog : '/blog',
+    missions:'/missions',
 
 }
 
