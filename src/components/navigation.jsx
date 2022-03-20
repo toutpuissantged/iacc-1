@@ -40,12 +40,17 @@ export const Navigation = (props) => {
             </li>
             <li>
               <Link to={RouteMap.blog} className='page-scroll'>
-                Blog
+                Voir Les équipes
+              </Link>
+            </li>
+            <li>
+              <Link to={RouteMap.blog} className='page-scroll'>
+                A propos de nous 
               </Link>
             </li>
             <li>
               <Link to={RouteMap.account} className='page-scroll'>
-                Inscription
+                Connexion
               </Link>
             </li>
           </ul>

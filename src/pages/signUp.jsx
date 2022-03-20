@@ -1,13 +1,54 @@
-import React from 'react';
-import Form from '../components/auth/Form';
-import "../components/auth/style.module.css";
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+// Example JS object used for CSS styling
+const styles = {
+  facebookBtn: {
+    backgroundColor: 'rgb(51, 89, 157)'
+  },
+  form: {
+    textAlign: 'center'
+  }
+}
 
-const SignUpScreen = () => {
-  return (
-  <div>
-    <Form/>
-  </div>
-  );
-};
+class Login extends React.Component {
+  handleOnSubmit = (e) => {
+    e.preventDefault();
+    console.log('Submitted!');
+  };
+  render() {
+    return (
+        <form style={styles.form} onSubmit={this.handleOnSubmit}>
+          <h4>Welcome Back!</h4>
+          <div className='form-group row'>
+            <input className='input' type='text' placeholder='Email'/>
+          </div>
+          <div className='form-group row'>
+            <input className='input' type='password' placeholder='Password'/>
+          </div>
+          <div className='form-group row'>
+            <button className='btn' type='submit'>Log In</button>
+          </div>
+          <div className='form-group row'>
+            <button className='fb' type='submit'>Connect with Facebook</button>
+          </div>
+        </form>
+      
+    )
+  }
+}
 
-export default SignUpScreen;
+class Form extends React.Component {
+  render () {
+    const {children, title} = this.props
+    return (
+      <div className='col-md-6 mx-auto'>
+        <header>
+          <h1>{title}</h1>
+        </header>
+        {children}
+      </div>
+    )
+  }
+}
+
+export default Login
